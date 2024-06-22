@@ -1,0 +1,141 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: preconnect, sans-serif;
+}
+
+.document{
+    display:grid;
+    background: #000000;
+}
+
+img{
+    max-width: 100%; /*SEMPRE COLOCAR ISSO NAS IMAGENS PARA RESPONSIVIDADE!!!!*/
+}
+
+header{
+    height: 40px;
+    background-color:#111111;
+    text-align: center;
+}
+
+header nav{
+    padding-top: .7%;
+}
+
+header nav a{
+    font-size: 90%;
+    color: #909090;
+    text-decoration: none;
+    padding: 0 1rem 0 1.5rem;
+    display: inline-flex;
+}
+
+.iphone15pro{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.iphone15pro h1{
+    background-color: #000000;
+    color:#ffffff;
+    font-size:300%;
+}
+
+.iphone15pro p{
+    background-color: #000000;
+    color:#ffffff;
+    font-size: 180%;
+}
+
+.iphone15pro img{
+    margin-top: 10px;
+}
+
+.applewatch{
+    color: #FFFFFF;
+    background-color: #000000;
+    margin-top:-10px;
+}
+
+.applewatch img{
+    margin-left:15%;
+}
+
+.applewatch h1{
+    font-size:300%;
+    text-align: center;
+}
+
+.applewatch p{
+    font-size: 180%;
+    text-align: center;
+}
+
+.applewatch #series{
+    color: red;
+}
+
+
+.blocos{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+.blocos h1{
+    font-size: 280%;
+}
+
+.blocos p{
+    font-size: 150%;
+    margin-top: -40px;
+}
+
+.blocos div{
+    flex: 1 1 50%;
+}
+
+.airpods{
+    color:white;
+    background-color:#000000;
+}
+
+footer{
+    text-align: center;
+}
+
+footer a{
+    font-size: 90%;
+    color: #909090;
+    text-decoration: none;
+    padding: 0 1rem 0 1.5rem;
+    display: inline-flex;
+}
+
+
+@media screen and (max-width: 600px){
+    .blocos {
+        display: block;
+        max-width: 100%;
+    }
+
+    header nav{
+        padding-left: 5%;
+        padding-right: 2%;
+        padding-top: .7%;
+    }
+
+    header nav a{
+        font-size: 70%;
+        color: #909090;
+        text-decoration: none;
+        padding: 0;
+        display: inline-flex;
+        padding: 0 1rem 0 1.5rem;
+        margin-right: 5px;
+    }
+    
+}
